@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar responsive</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+</head>
+<body class="home">
+    <header class="primary-header flex">
+        <div>
+            <img src="http://www.w3.org/2000/svg" alt="">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"></button>
+        
+        <nav class="nav">
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li class="active">
+                        <a href="#home">
+                            <span aria-hidden="true"></span>Home
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#destination">
+                            <span aria-hidden="true"></span>Destination
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#crew">
+                            <span aria-hidden="true"></span>Crew
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#technology">
+                            <span aria-hidden="true"></span>Technology
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+</body>
+</html>
